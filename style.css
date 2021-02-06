@@ -16,8 +16,6 @@
 
 html {
     font-family: 'Orbitron', sans-serif;
-    font-size: 14px;
-
 }
 
 body {
@@ -42,9 +40,9 @@ header {
 main {
     flex-grow: 1;
     overflow: auto;
-    width: 100%;
+    max-width: 1000px;
     margin: auto;
-    line-height: 130%
+    line-height: 135%
 }
 
 .footer {
@@ -64,9 +62,8 @@ main {
 
 .image {
     display: block;
-    height: 30%;
     border-radius: 1em;
-    margin: 0em auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 .quote1 {
@@ -74,8 +71,7 @@ main {
     margin-top: 1em;
 }
 
-.cv {
-    max-width: 100%;
+.biography {
     margin: 1em auto 1em auto;
     color: var(--color2);
 }
@@ -97,7 +93,6 @@ main {
 
 
 .quote2 {
-    max-width: 100%;
     margin: auto;
     text-align: justify;
     color: var(--color2);
