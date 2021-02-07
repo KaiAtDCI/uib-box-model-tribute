@@ -42,7 +42,9 @@ main {
     overflow: auto;
     max-width: 1000px;
     margin: auto;
-    line-height: 135%
+    font-size: 14px;
+    line-height: 135%;
+    word-spacing: 10%;
 }
 
 .footer {
